@@ -16,4 +16,4 @@ then
     export GIT_AUTHOR_NAME="$NEW_NAME"
     export GIT_AUTHOR_EMAIL="$NEW_EMAIL"
 fi
-' HEAD ^origin/${branch}
+' HEAD origin main
