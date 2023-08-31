@@ -1,11 +1,12 @@
 import deepl from "deepl-node";
 import { MISSING_AUTH_KEY } from "./constants/tips";
 import { error } from "./alfy";
+import { Options } from "./interface/index";
 
 export default class Translator {
   translator: deepl.Translator | null = null;
 
-  constructor(authKey: string | undefined) {
+  constructor(authKey: string | undefined, options?: Options) {
     this.init(authKey);
   }
 
@@ -17,7 +18,7 @@ export default class Translator {
     this.translator = new deepl.Translator(authKey);
   }
 
-  async translate(
+  async translateText(
     text: string,
     sourceLang?: deepl.SourceLanguageCode | null,
     targetLang?: deepl.TargetLanguageCode | null
@@ -27,5 +28,9 @@ export default class Translator {
       sourceLang ?? null,
       targetLang ?? "zh"
     );
+  }
+
+  getSourceLanguageCode(text: string) {
+    return this.translateText(text);
   }
 }

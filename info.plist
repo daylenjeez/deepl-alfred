@@ -11,7 +11,7 @@
 	<key>createdby</key>
 	<string>daylenJeez</string>
 	<key>description</key>
-	<string></string>
+	<string>translate</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -44,7 +44,7 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string>loading...</string>
 				<key>script</key>
 				<string>./node_modules/.bin/run-node index.js "$1"</string>
 				<key>scriptargtype</key>
@@ -54,7 +54,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string></string>
+				<string>请输入文本进行翻译</string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
@@ -75,7 +75,7 @@
 		<key>CB20B02A-F0E1-498A-B763-203A78A3889F</key>
 		<dict>
 			<key>xpos</key>
-			<real>165</real>
+			<real>35</real>
 			<key>ypos</key>
 			<real>145</real>
 		</dict>
@@ -86,7 +86,13 @@
 	<dict>
 		<key>auth_key</key>
 		<string>60c69b45-702c-7f11-fd29-393ac2883cf9:fx</string>
+		<key>preferred</key>
+		<string>zh,en</string>
 	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>preferred</string>
+	</array>
 	<key>version</key>
 	<string></string>
 	<key>webaddress</key>
