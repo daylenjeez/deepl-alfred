@@ -87,7 +87,7 @@
 		<key>auth_key</key>
 		<string>60c69b45-702c-7f11-fd29-393ac2883cf9:fx</string>
 		<key>preferred</key>
-		<string>zh,en</string>
+		<string>zh,en-US</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
