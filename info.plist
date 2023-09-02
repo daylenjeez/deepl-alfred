@@ -11,7 +11,7 @@
 	<key>createdby</key>
 	<string>daylenJeez</string>
 	<key>description</key>
-	<string>translate</string>
+	<string>Using DeepL's translation API for fast and precise translation services</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -38,13 +38,13 @@
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
-				<true/>
+				<false/>
 				<key>queuedelaymode</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>loading...</string>
+				<string>Please Wait...</string>
 				<key>script</key>
 				<string>./node_modules/.bin/run-node index.js "$1"</string>
 				<key>scriptargtype</key>
@@ -54,7 +54,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>请输入文本进行翻译</string>
+				<string>DeepL Translate</string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
@@ -75,7 +75,7 @@
 		<key>CB20B02A-F0E1-498A-B763-203A78A3889F</key>
 		<dict>
 			<key>xpos</key>
-			<real>35</real>
+			<real>130</real>
 			<key>ypos</key>
 			<real>145</real>
 		</dict>

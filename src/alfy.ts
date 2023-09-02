@@ -1,4 +1,5 @@
 import alfy, { OutputOptions, ScriptFilterItem } from "alfy";
+import { debounce } from "./utils";
 
 /**
  * output error

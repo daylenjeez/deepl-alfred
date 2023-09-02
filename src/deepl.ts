@@ -48,11 +48,11 @@ export default class Translator {
     return this.translator?.translateText(text, sourceLang ?? null, targetLang);
   }
 
-  async processTranslate(
+  processTranslate = async (
     inputText: string,
     sourceLang?: deepl.SourceLanguageCode | null,
     targetLang?: deepl.TargetLanguageCode | null
-  ): Promise<string | undefined> {
+  ): Promise<string | undefined> => {
     const _sourceLang = sourceLang ?? null;
     const _targetLang = targetLang ?? this.preferred[0];
     const res = await this.translateText(inputText, _sourceLang, _targetLang);
@@ -62,10 +62,10 @@ export default class Translator {
     const { text, detectedSourceLang } = res;
     if (detectedSourceLang === _targetLang) {
       const _targetLang = this.preferred[1];
-      return !_targetLang
+      return _targetLang
         ? text
         : this.processTranslate(inputText, _sourceLang, _targetLang);
     }
     return text;
-  }
+  };
 }
