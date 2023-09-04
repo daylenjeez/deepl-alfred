@@ -7,7 +7,21 @@
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
-	<dict/>
+	<dict>
+		<key>CB20B02A-F0E1-498A-B763-203A78A3889F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>504D0C34-1147-4E96-B18C-6DF221C1FA1E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
 	<key>createdby</key>
 	<string>daylenJeez</string>
 	<key>description</key>
@@ -21,18 +35,37 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>504D0C34-1147-4E96-B18C-6DF221C1FA1E</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
 				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
-				<integer>102</integer>
+				<integer>126</integer>
 				<key>keyword</key>
 				<string>dl</string>
 				<key>queuedelaycustom</key>
@@ -72,12 +105,19 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>504D0C34-1147-4E96-B18C-6DF221C1FA1E</key>
+		<dict>
+			<key>xpos</key>
+			<real>260</real>
+			<key>ypos</key>
+			<real>175</real>
+		</dict>
 		<key>CB20B02A-F0E1-498A-B763-203A78A3889F</key>
 		<dict>
 			<key>xpos</key>
-			<real>130</real>
+			<real>30</real>
 			<key>ypos</key>
-			<real>145</real>
+			<real>175</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>

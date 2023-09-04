@@ -1,5 +1,4 @@
 import alfy, { OutputOptions, ScriptFilterItem } from "alfy";
-import { debounce } from "./utils";
 
 /**
  * output error
@@ -10,6 +9,7 @@ export const error = (message: string) => alfy.error(message);
 
 /**
  * processInput
+ *
  * @param {(input:string)=>void} callback
  * @returns
  */
@@ -20,6 +20,7 @@ export const processInput = (callback: (input: string) => void) => {
 
 /**
  * output
+ *
  * @param {ScriptFilterItem[]} items
  * @param {OutputOptions} options
  * @returns

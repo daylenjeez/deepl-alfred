@@ -9,7 +9,7 @@ const instance = new Translator(process.env[AUTH_KEY], {
 const callback = async (input: string) => {
   const text = await instance.processTranslate(input, null);
   if (!text) return;
-  output([{ title: text }]);
+  output([{ title: text, arg: text }]);
 };
 
 processInput(callback);

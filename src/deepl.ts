@@ -1,8 +1,8 @@
 import deepl, { TargetLanguageCode } from "deepl-node";
 import { MISSING_AUTH_KEY } from "./constants/tips";
-import { error } from "./alfy";
+import { error, output } from "./alfy";
 import { Options } from "./interface/index";
-import { INITIAL_PREFERRED } from "./constants/index";
+import { INITIAL_PREFERRED, NO_RESULT } from "./constants/index";
 
 export default class Translator {
   translator: deepl.Translator | null = null;
@@ -57,14 +57,15 @@ export default class Translator {
     const _targetLang = targetLang ?? this.preferred[0];
     const res = await this.translateText(inputText, _sourceLang, _targetLang);
     if (!res) {
+      error(NO_RESULT);
       return;
     }
     const { text, detectedSourceLang } = res;
     if (detectedSourceLang === _targetLang) {
       const _targetLang = this.preferred[1];
       return _targetLang
-        ? text
-        : this.processTranslate(inputText, _sourceLang, _targetLang);
+        ? this.processTranslate(inputText, _sourceLang, _targetLang)
+        : text;
     }
     return text;
   };
