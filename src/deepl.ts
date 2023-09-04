@@ -52,7 +52,10 @@ export default class Translator {
     inputText: string,
     sourceLang?: deepl.SourceLanguageCode | null,
     targetLang?: deepl.TargetLanguageCode | null
-  ): Promise<string | undefined> => {
+  ): Promise<
+    | Promise<deepl.TextResult & { targetLang: deepl.TargetLanguageCode }>
+    | undefined
+  > => {
     const _sourceLang = sourceLang ?? null;
     const _targetLang = targetLang ?? this.preferred[0];
     const res = await this.translateText(inputText, _sourceLang, _targetLang);
@@ -65,8 +68,8 @@ export default class Translator {
       const _targetLang = this.preferred[1];
       return _targetLang
         ? this.processTranslate(inputText, _sourceLang, _targetLang)
-        : text;
+        : { ...res, targetLang: _targetLang };
     }
-    return text;
+    return { ...res, targetLang: _targetLang };
   };
 }
