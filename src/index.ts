@@ -9,7 +9,7 @@ const instance = new Translator(process.env[AUTH_KEY], {
 const callback = async (input: string) => {
   const res = await instance.processTranslate(input, null);
   if (!res) return;
-  const { text, detectedSourceLang, targetLang } = res;
+  const { text, targetLang } = res;
   const _targetLang = targetLang === "en-US" ? "en" : targetLang;
   output([
     {
