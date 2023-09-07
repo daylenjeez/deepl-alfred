@@ -8,10 +8,10 @@
 [⬇️ 下载](https://github.com/daylenjeez/deepl-alfred/blob/main/deepL.alfredworkflow)
 
 ## 示例
-
-![中翻英](https://github.com/daylenjeez/deepl-alfred/blob/main/img/zh-en.png)
-
-![英翻中](https://github.com/daylenjeez/deepl-alfred/blob/main/img/en-zh.png)
+<p align="center">
+  <span align="left"><img src="https://github.com/daylenjeez/deepl-alfred/blob/main/img/zh-en.png" width="48%"  /></span>
+  <span align="right"><img src="https://github.com/daylenjeez/deepl-alfred/blob/main/img/en-zh.png" width="48%" /></span>
+</p>
 
 ## 功能
 **语言识别**：自动识别输入的语言进行翻译；                   
