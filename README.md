@@ -16,7 +16,7 @@
 ## 功能
 **语言识别**：自动识别输入的语言进行翻译；                   
 **回车复制**：翻译后，点击↩︎ ``Enter``复制翻译结果；                     
-**查看详情**：翻译后，点击 ⌘`` Command`` + ↩︎ ``Enter`` 跳转至 [deepl.com](https://deepl.com)查看更多翻译和读音等；
+**查看详情**：翻译后，点击 ⌘`` Command`` + ↩︎ ``Enter`` 跳转至 [deepl.com](https://deepl.com) 查看更多翻译和读音等；
 
 ## 配置
 - ``auth_key``：您在DeepL申请的 ``api key`` ；[申请地址](https://www.deepl.com/zh/account/summary/generate-new-api-key)（⚠️申请DeepL API 仅支持部分国家的信用卡，不支持中国卡；这里可以选择去淘宝直接购买，可以先用我免费提供的``key``试用后再去购买）；
