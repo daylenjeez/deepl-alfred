@@ -11,12 +11,12 @@
 ![enToZh](https://github.com/daylenjeez/deepl-alfred/blob/main/img/en-zh.png)
 
 ## Features
-**Language Recognition**: Automatically recognize the input language for translation.
-**Copy on Enter**: After translation, click ↩︎ `Enter` to copy the translation result.
+**Language Recognition**: Automatically recognize the input language for translation.               
+**Copy on Enter**: After translation, click ↩︎ `Enter` to copy the translation result.                
 **View Details**: After translation, click ⌘`` Command`` + ↩︎ ``Enter`` to navigate to [deepl.com](https://deepl.com) to see more translations and pronunciations, etc.
 
 ## Configuration
-- ``auth_key``: Your ``api key`` obtained from DeepL; [Apply here](https://www.deepl.com/zh/account/summary/generate-new-api-key) (⚠️ The application for DeepL API only supports credit cards from some countries and does not support Chinese cards; you can choose to purchase directly on Taobao or use the free ``key`` I provide for trial before purchasing).
+- ``auth_key``: Your ``api key`` obtained from DeepL; [Apply here](https://www.deepl.com/zh/account/summary/generate-new-api-key).
 - ``preferred``: Your two frequently used languages, separated by a comma for bidirectional translation support. For example, if you frequently use Chinese and American English, you can input `zh,en-US` here; (⚠️ Please configure ``en`` as ``en-US`` or ``en-GB``).
 
 
