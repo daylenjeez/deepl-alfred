@@ -5,7 +5,7 @@
     <div align="center"><strong>中文</strong> | <a href="README.en.md">English</a></div>
 </p>
 
-[⬇️下载](https://github.com/daylenjeez/deepl-alfred/blob/main/deepL.alfredworkflow)
+[⬇️ 下载](https://github.com/daylenjeez/deepl-alfred/blob/main/deepL.alfredworkflow)
 
 ## 示例
 
