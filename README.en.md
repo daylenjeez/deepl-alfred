@@ -6,10 +6,13 @@
 </p>
 
 [⬇️ download](https://github.com/daylenjeez/deepl-alfred/blob/main/deepL.alfredworkflow)
-## Examples
-![zhToEn](https://github.com/daylenjeez/deepl-alfred/blob/main/img/zh-en.png)
 
-![enToZh](https://github.com/daylenjeez/deepl-alfred/blob/main/img/en-zh.png)
+## Examples
+
+<p align="center">
+  <span align="left"><img src="https://github.com/daylenjeez/deepl-alfred/blob/main/img/zh-en.png" width="48%"  /></span>
+  <span align="right"><img src="https://github.com/daylenjeez/deepl-alfred/blob/main/img/en-zh.png" width="48%" /></span>
+</p>
 
 ## Features
 **Language Recognition**: Automatically recognize the input language for translation.               
