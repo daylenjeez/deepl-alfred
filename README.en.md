@@ -2,13 +2,13 @@
     <div align="center"><img src="https://github.com/daylenjeez/deepl-alfred/blob/main/img/deepl-logo.svg" width=120  /></div>
     <h2 align="center">DeepL Alfred</h2>
     <div align="center">High-quality translation based on DeepL, supports automatic language recognition and accurate translation of long sentences;</div>
-    <div align="center"><a>中文</a> | <strong>English</strong></div>
+    <div align="center"><a href="README.md">中文</a> | <strong>English</strong></div>
 </p>
 
 ## Examples
-![enToZh](https://github.com/daylenjeez/deepl-alfred/blob/main/img/zh-en.png)
+![zhToEn](https://github.com/daylenjeez/deepl-alfred/blob/main/img/zh-en.png)
 
-![zhToEn](https://github.com/daylenjeez/deepl-alfred/blob/main/img/en-zh.png)
+![enToZh](https://github.com/daylenjeez/deepl-alfred/blob/main/img/en-zh.png)
 
 ## Features
 **Language Recognition**: Automatically recognize the input language for translation.
