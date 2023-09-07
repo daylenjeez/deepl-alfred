@@ -2,7 +2,7 @@
     <div align="center"><img src="https://github.com/daylenjeez/deepl-alfred/blob/main/img/deepl-logo.svg" width=120  /></div>
     <h2 align="center">DeepL Alfred</h2>
     <div align="center">基于DeepL的高质量翻译，支持自动识别语言翻译，长句精准翻译；</div>
-    <div align="center"><a>中文</a> | <strong>English</strong></div>
+    <div align="center"><strong>中文</strong> | <a href="README.en.md">English</a></div>
 </p>
 
 ## 示例
