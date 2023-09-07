@@ -26,7 +26,7 @@
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string>show detail</string>
+				<string>show more info</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -76,7 +76,7 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string></string>
+				<string>Please Input Text</string>
 				<key>title</key>
 				<string>DeepL Translate</string>
 				<key>type</key>
@@ -167,10 +167,6 @@
 		<key>preferred</key>
 		<string>zh,en-US</string>
 	</dict>
-	<key>variablesdontexport</key>
-	<array>
-		<string>preferred</string>
-	</array>
 	<key>version</key>
 	<string></string>
 	<key>webaddress</key>

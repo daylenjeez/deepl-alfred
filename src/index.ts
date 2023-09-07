@@ -10,7 +10,8 @@ const callback = async (input: string) => {
   const res = await instance.processTranslate(input, null);
   if (!res) return;
   const { text, targetLang } = res;
-  const _targetLang = targetLang === "en-US" ? "en" : targetLang;
+  const _targetLang = /^en/i.test(targetLang) ? "en" : targetLang;
+
   output([
     {
       title: text,
