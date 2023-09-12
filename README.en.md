@@ -5,6 +5,11 @@
     <div align="center"><a href="README.md">中文</a> | <strong>English</strong></div>
 </p>
 
+## Install
+```bash
+  npm i -g deepl-alfred
+```
+
 ## Examples
 
 <p align="center">

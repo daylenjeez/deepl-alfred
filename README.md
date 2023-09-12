@@ -5,6 +5,11 @@
     <div align="center"><strong>中文</strong> | <a href="README.en.md">English</a></div>
 </p>
 
+## 安装
+```bash
+  npm i -g deepl-alfred
+```
+
 ## 示例
 <p align="center">
   <span align="left"><img src="https://github.com/daylenjeez/deepl-alfred/blob/main/img/zh-en.png" width="48%"  /></span>
