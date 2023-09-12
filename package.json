@@ -1,7 +1,7 @@
 {
   "name": "deepl-alfred",
   "version": "0.0.1",
-  "description": "",
+  "description": "基于DeepL的Alfred翻译插件;Alfred Translation Plugin Powered by DeepL",
   "main": "index.js",
   "scripts": {
     "dev": "npx rollup -c -w",
