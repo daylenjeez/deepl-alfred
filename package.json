@@ -1,6 +1,6 @@
 {
   "name": "deepl-alfred",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "基于DeepL的Alfred翻译插件;Alfred Translation Plugin Powered by DeepL",
   "main": "index.js",
   "scripts": {
