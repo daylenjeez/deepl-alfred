@@ -7,7 +7,8 @@
     "dev": "npx rollup -c -w",
     "build": "npx rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "alfred-config"
+    "postinstall": "alfy-init",
+		"preuninstall": "alfy-cleanup"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   "type": "module",
   "dependencies": {
     "alfy": "^1.1.0",
+    "deepl-alfred": "^0.0.1",
     "deepl-node": "^1.10.2"
   },
   "devDependencies": {
