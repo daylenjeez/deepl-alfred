@@ -5,8 +5,6 @@
     <div align="center"><strong>中文</strong> | <a href="README.en.md">English</a></div>
 </p>
 
-[下载 ⬇️](https://github.com/daylenjeez/deepl-alfred/raw/main/deepL.alfredworkflow)
-
 ## 示例
 <p align="center">
   <span align="left"><img src="https://github.com/daylenjeez/deepl-alfred/blob/main/img/zh-en.png" width="48%"  /></span>
